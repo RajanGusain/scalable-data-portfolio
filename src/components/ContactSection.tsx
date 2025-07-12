@@ -130,6 +130,7 @@ export const ContactSection = () => {
                     <Button 
                       size="sm"
                       className="bg-primary hover:bg-primary/90"
+                      onClick={() => window.open("https://raw.githubusercontent.com/RajanGusain/portfolio/main/Rajan_Gusain_DE1.pdf", "_blank")}
                     >
                       <Download className="h-4 w-4 mr-2" />
                       PDF

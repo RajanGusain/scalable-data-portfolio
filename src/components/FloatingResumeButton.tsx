@@ -3,8 +3,7 @@ import { Download } from "lucide-react";
 
 export const FloatingResumeButton = () => {
   const handleDownloadResume = () => {
-    // This would typically download a PDF resume
-    window.open("#", "_blank");
+    window.open("https://raw.githubusercontent.com/RajanGusain/portfolio/main/Rajan_Gusain_DE1.pdf", "_blank");
   };
 
   return (

@@ -4,8 +4,7 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 export const HeroSection = () => {
   const handleDownloadResume = () => {
-    // This would typically download a PDF resume
-    window.open("#", "_blank");
+    window.open("https://raw.githubusercontent.com/RajanGusain/portfolio/main/Rajan_Gusain_DE1.pdf", "_blank");
   };
 
   const handleContactMe = () => {
