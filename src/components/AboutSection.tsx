@@ -54,8 +54,8 @@ export const AboutSection = () => {
               
               <p>
                 I specialize in <span className="text-primary font-semibold">performance optimization</span>, 
-                cost-efficient migrations, and building intelligent reporting layers using BI tools like 
-                <span className="text-accent font-medium"> Superset and Sisense</span>.
+                cost-efficient migrations, and building intelligent reporting layers using Data Modeling like 
+                <span className="text-accent font-medium"> Snowflake and Star Schema</span>.
               </p>
             </div>
           </div>
