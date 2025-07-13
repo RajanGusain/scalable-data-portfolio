@@ -49,7 +49,7 @@ export const AboutSection = () => {
               <p>
                 Skilled in integrating business-critical data across logistics and enterprise systems using 
                 modern data tools like <span className="text-accent font-medium">Kafka, Spark, Databricks, 
-                Redshift, Snowflake</span>, and <span className="text-accent font-medium">Azure Data Factory</span>.
+                Redshift, Snowflake</span>, and <span className="text-accent font-medium">DataLakehouse</span>.
               </p>
               
               <p>
