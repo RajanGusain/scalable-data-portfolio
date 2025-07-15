@@ -10,7 +10,7 @@ import {
   MapPin, 
   Send, 
   Download,
-  QrCode 
+  Phone 
 } from "lucide-react";
 
 export const ContactSection = () => {
@@ -83,12 +83,12 @@ export const ContactSection = () => {
                 <div>
                   <p className="font-medium text-foreground">LinkedIn</p>
                   <a 
-                    href="https://linkedin.com/in/rajan-gusain" 
+                    href="https://www.linkedin.com/in/rajan-gusain-20812a218/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-accent hover:text-primary transition-colors duration-300"
                   >
-                    linkedin.com/in/rajan-gusain
+                    linkedin.com/in/rajan-gusain-20812a218
                   </a>
                 </div>
               </div>
@@ -111,6 +111,22 @@ export const ContactSection = () => {
                 </div>
               </div>
 
+              {/* Phone */}
+              <div className="flex items-center gap-4 p-4 bg-card/50 rounded-lg border border-border hover:border-primary/30 transition-colors duration-300">
+                <div className="p-3 bg-primary/10 rounded-lg">
+                  <Phone className="h-6 w-6 text-primary" />
+                </div>
+                <div>
+                  <p className="font-medium text-foreground">Phone</p>
+                  <a 
+                    href="tel:+918851178394" 
+                    className="text-accent hover:text-primary transition-colors duration-300"
+                  >
+                    +91 8851178394
+                  </a>
+                </div>
+              </div>
+
               {/* Resume Download */}
               <div className="p-6 bg-tech-subtle rounded-lg border border-primary/20">
                 <div className="flex items-center justify-between">
@@ -118,24 +134,14 @@ export const ContactSection = () => {
                     <h4 className="font-semibold text-foreground mb-2">Download Resume</h4>
                     <p className="text-sm text-muted-foreground">Get my latest resume with detailed experience</p>
                   </div>
-                  <div className="flex gap-3">
-                    <Button 
-                      variant="outline" 
-                      size="sm"
-                      className="border-primary/30 hover:bg-primary/10"
-                    >
-                      <QrCode className="h-4 w-4 mr-2" />
-                      QR Code
-                    </Button>
-                    <Button 
-                      size="sm"
-                      className="bg-primary hover:bg-primary/90"
-                      onClick={() => window.open("https://raw.githubusercontent.com/RajanGusain/portfolio/main/Rajan_Gusain_DE1.pdf", "_blank")}
-                    >
-                      <Download className="h-4 w-4 mr-2" />
-                      PDF
-                    </Button>
-                  </div>
+                  <Button 
+                    size="sm"
+                    className="bg-primary hover:bg-primary/90"
+                    onClick={() => window.open("https://raw.githubusercontent.com/RajanGusain/portfolio/main/Rajan_Gusain_DE1.pdf", "_blank")}
+                  >
+                    <Download className="h-4 w-4 mr-2" />
+                    Download PDF
+                  </Button>
                 </div>
               </div>
             </div>

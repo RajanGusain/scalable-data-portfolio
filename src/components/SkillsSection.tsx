@@ -3,7 +3,7 @@ export const SkillsSection = () => {
     "AWS", "PySpark", "Python", "SQL", "Kafka", "Databricks", 
     "Azure", "ETL", "Redshift", "Snowflake", "Data Warehousing", 
     "Big Data", "Data Lake", "Azure Data Factory", "Superset", 
-    "Sisense", "PostgreSQL", "Hive", "Docker", "GitHub", "CI/CD", "Debezium"
+    "Sisense", "PostgreSQL", "Hive", "Docker", "GitHub", "CI/CD", "Debezium", "Datamart"
   ];
 
   return (
@@ -22,10 +22,10 @@ export const SkillsSection = () => {
           {skills.map((skill, index) => (
             <div
               key={skill}
-              className="skill-badge group cursor-default"
+              className="skill-badge"
               style={{ animationDelay: `${index * 0.05}s` }}
             >
-              <span className="font-medium text-foreground group-hover:text-primary transition-colors duration-300">
+              <span className="font-medium text-foreground">
                 {skill}
               </span>
             </div>

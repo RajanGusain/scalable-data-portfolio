@@ -241,4 +241,33 @@
   .container-max {
     max-width: var(--container-max);
   }
+  
+  /* Mobile optimizations */
+  @media (max-width: 768px) {
+    .section-padding {
+      padding: 3rem 0;
+    }
+    
+    .floating-resume {
+      @apply bottom-6 right-6 px-4 py-2 text-sm;
+    }
+    
+    .skill-badge {
+      @apply px-3 py-1.5 text-sm;
+    }
+    
+    .project-card {
+      @apply p-4;
+    }
+    
+    .contact-input {
+      @apply px-3 py-2;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .section-padding {
+      padding: 2rem 0;
+    }
+  }
 }
