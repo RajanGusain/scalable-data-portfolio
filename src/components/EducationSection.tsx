@@ -1,13 +1,6 @@
-import { Badge } from "@/components/ui/badge";
-import { GraduationCap, Calendar, MapPin, Award, Trophy } from "lucide-react";
+import { GraduationCap, Calendar, MapPin, Trophy, Award } from "lucide-react";
 
 export const EducationSection = () => {
-  const certifications = [
-    "Microsoft Certified: Azure Data Engineer Associate",
-    "Databricks Certified Spark Developer",
-    "AWS Certified Data Analytics"
-  ];
-
   const achievements = [
     {
       title: "Top Performer – Q4 2023",
@@ -75,24 +68,6 @@ export const EducationSection = () => {
               </div>
             </div>
 
-            {/* Certifications */}
-            <h3 className="text-2xl font-semibold mb-6 mt-12 flex items-center gap-3">
-              <Badge className="p-2 bg-accent/10">
-                <Award className="h-5 w-5 text-accent" />
-              </Badge>
-              Certifications
-            </h3>
-            
-            <div className="space-y-4">
-              {certifications.map((cert, index) => (
-                <div key={cert} className="project-card border-l-4 border-l-primary/30">
-                  <div className="flex items-center gap-3">
-                    <div className="w-2 h-2 bg-primary rounded-full"></div>
-                    <span className="font-medium text-foreground">{cert}</span>
-                  </div>
-                </div>
-              ))}
-            </div>
           </div>
 
           {/* Achievements */}
