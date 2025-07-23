@@ -1,3 +1,4 @@
+
 import { Badge } from "@/components/ui/badge";
 import { 
   Cloud, 
@@ -22,7 +23,6 @@ export const AboutSection = () => {
     { name: "Kafka", icon: Activity, color: "text-green-400" },
     { name: "Spark", icon: Zap, color: "text-yellow-400" },
     { name: "Redshift", icon: Server, color: "text-purple-400" },
-    { name: "Snowflake", icon: Database, color: "text-cyan-400" },
     { name: "Superset", icon: BarChart3, color: "text-indigo-400" },
     { name: "Sisense", icon: BarChart3, color: "text-pink-400" },
     { name: "ADF", icon: Workflow, color: "text-blue-500" },
@@ -49,13 +49,13 @@ export const AboutSection = () => {
               <p>
                 Skilled in integrating business-critical data across logistics and enterprise systems using 
                 modern data tools like <span className="text-accent font-medium">Kafka, Spark, Databricks, 
-                Redshift, Snowflake</span>, and <span className="text-accent font-medium">DataLakehouse</span>.
+                Redshift</span>, and <span className="text-accent font-medium">DataLakehouse</span>.
               </p>
               
               <p>
                 I specialize in <span className="text-primary font-semibold">performance optimization</span>, 
                 cost-efficient migrations, and building intelligent reporting layers using Data Modeling like 
-                <span className="text-accent font-medium"> Snowflake and Star Schema</span>.
+                <span className="text-accent font-medium"> Star Schema</span>.
               </p>
             </div>
           </div>

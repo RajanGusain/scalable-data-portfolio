@@ -1,7 +1,8 @@
+
 export const SkillsSection = () => {
   const skills = [
     "AWS", "PySpark", "Python", "SQL", "Kafka", "Databricks", 
-    "Azure", "ETL", "Redshift", "Snowflake", "Data Warehousing", 
+    "Azure", "ETL", "Redshift", "Data Warehousing", 
     "Big Data", "Data Lake", "Azure Data Factory", "Superset", 
     "Sisense", "PostgreSQL", "Hive", "Docker", "GitHub", "CI/CD", "Debezium", "Datamart"
   ];
